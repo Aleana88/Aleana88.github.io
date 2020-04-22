@@ -1,0 +1,87 @@
+img{
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+ }
+
+header{
+  position: relative;
+  text-align: left;
+}
+
+container{
+  position: absolute;
+  bottom: 20px;
+  margin-left: 450px;
+  font-size:40px;
+}
+
+body{
+  -webkit-text-stroke-width: 0px;
+  line-height: 40px;
+}
+
+header, blockquote{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: #222 grey;
+  outline-width: none;
+}
+
+p, ul, h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  color: #222 grey;
+  list-style-type: square;
+
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #222 grey;
+}
+
+div {
+  text-align: left;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+blockquote {
+  text-align: left;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  background: #404040;
+  color: white;
+  padding: 30px;
+  font-size: 45px;
+  line-height: 80px;
+}
+
+hr{
+  width: 60%;
+}
+.capital{
+ text-transform: uppercase; 
+}
+
+blockquote::before{
+  content:'“';
+  font-family: 'IM Fell French Canon SC', serif;
+  font-size:170px;
+  background:none;
+  margin:0px;
+  padding:0px;
+  line-height:0;
+  display:inline;
+  position:relative;
+  top:60px;
+  left:-10px;
